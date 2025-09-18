@@ -11,3 +11,7 @@ test('should retunr number when only one number is provided',() =>{
 test('should retunr sum of numbers when only two numbers are provided',() =>{
     expect(add("2,4")).toBe(6);
 });
+
+test('should retunr sum of n numbers',() =>{
+    expect(add("2,4,7,2,13,52,52")).toBe(132);
+});
