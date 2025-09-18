@@ -33,3 +33,7 @@ test('should throw an exception when negative numbers are present', () => {
 test('should ignore numbers greater than 1000', () => {
   expect(add("2,1001")).toBe(2);
 });
+
+test('should ignore numbers greater than 1000', () => {
+  expect(add("//[***]\n1***2***3")).toBe(6);
+});

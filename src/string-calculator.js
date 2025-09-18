@@ -6,10 +6,16 @@ function add(numbers){
         let delimiters = [",","\n"];
 
         if(numbers.startsWith("//")){
-            const parts = numbers.split('\n');
-            const customDelimiter = parts[0][2];
-            delimiters.push(customDelimiter);
-            numbers = parts[1];
+            const delimiterEnd = numbers.indexOf("\n");
+            const delimiterSection = numbers.slice(2,delimiterEnd);
+            numbers = numbers.slice(delimiterEnd + 1);
+
+            if (delimiterSection.startsWith("[") && delimiterSection.endsWith("]")) {
+                const customDelimiter = delimiterSection.slice(1, -1); 
+                delimiters.push(customDelimiter);
+                } else {
+                delimiters.push(delimiterSection);
+            }
         }
 
         for(const i of delimiters){
