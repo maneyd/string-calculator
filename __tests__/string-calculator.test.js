@@ -24,3 +24,8 @@ test('should handle custom delimiter starting with //', () => {
   expect(add("//;\n1;2")).toBe(3);
   expect(add("//|\n4|5|6")).toBe(15);
 });
+
+test('should throw an exception when negative numbers are present', () => {
+  expect(() => add("1,-2,3,-5")).toThrow("negative numbers not allowed: -2, -5");
+  expect(() => add("1,-2,3")).toThrow("negatives are not allowed");
+});

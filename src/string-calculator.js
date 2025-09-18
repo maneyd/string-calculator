@@ -18,9 +18,21 @@ function add(numbers){
 
         const digits = numbers.split(',').map(Number);
         
+        let negatives = [];
+
         let sum = 0;
         for(const num of digits){
-            sum += num;
+            if(num < 0){
+                negatives.push(num);
+            }else{
+                sum += num;
+            }
+        }
+
+        if(negatives.length == 1){
+            throw new Error("negatives are not allowed");
+        }else if(negatives.length > 1){
+            throw new Error("negative numbers not allowed: " + negatives.join(", "));
         }
 
         return sum;
