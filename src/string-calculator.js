@@ -24,7 +24,7 @@ function add(numbers){
         for(const num of digits){
             if(num < 0){
                 negatives.push(num);
-            }else{
+            }else if(num <= 1000){
                 sum += num;
             }
         }
