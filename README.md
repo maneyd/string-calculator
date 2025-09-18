@@ -77,11 +77,6 @@ You can find this in the `screenshots/` folder and in the step-by-step TDD secti
 
 ### Test 4: should return sum of n numbers
 
-**Test Failed**  
-<img src="/screenshots/4-failed.png" width="400"/>
-
-<br>
-
 **Code to Pass**  
 <img src="/screenshots/4-code.png" width="400"/>
 
