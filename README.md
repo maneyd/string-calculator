@@ -25,3 +25,8 @@ You can find this in the `screenshots/` folder and in the step-by-step TDD secti
 ## TDD cycle : 
 
 Test 1: test(should return 0 for empty string)
+    ![Test Failed](/screenshots/1-Failed.png)
+
+    ![Refractor Code](/screenshots/1-code.png)
+
+    ![Test Passed](/screenshots/1-passed.png)
