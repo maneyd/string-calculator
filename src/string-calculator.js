@@ -2,7 +2,8 @@ function add(numbers){
     if(numbers === ""){
         return 0;
     }else{
-        const digits = numbers.split(',').map(Number);
+        const newNumbers = numbers.replace(/\n/g,','); // replace /n wiht ,
+        const digits = newNumbers.split(',').map(Number);
         
         let sum = 0;
         for(const num of digits){
