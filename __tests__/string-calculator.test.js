@@ -19,3 +19,8 @@ test('should retunr sum of n numbers',() =>{
 test('should handle newlines between numbers', () => {
   expect(add("1\n2,3")).toBe(6);
 });
+
+test('should handle custom delimiter starting with //', () => {
+  expect(add("//;\n1;2")).toBe(3);
+  expect(add("//|\n4|5|6")).toBe(15);
+});
