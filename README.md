@@ -22,57 +22,155 @@
 
 You can find this in the `screenshots/` folder and in the step-by-step TDD section below.
 
-## TDD cycle : 
+## TDD Cycle :
 
-## Test 1: should return 0 for empty string
-- ![Test Failed](/screenshots/1-Failed.png)
-- ![Refactor Code](/screenshots/1-code.png)
-- ![Test Passed](/screenshots/1-passed.png)
+### Test 1: should return 0 for empty string
 
----
+**Test Failed**  
+<img src="/screenshots/1-Failed.png" width="400"/>
 
-## Test 2: should return number when only one number is provided
-- ![Test Failed](/screenshots/2-failed.png)
-- ![Refactor Code](/screenshots/2-code.png)
-- ![Test Passed](/screenshots/2-passed.png)
+<br>
 
----
+**Code to Pass**  
+<img src="/screenshots/1-code.png" width="400"/>
 
-## Test 3: should return sum of numbers when only two numbers are provided
-- ![Test Failed](/screenshots/3-failed.png)
-- ![Refactor Code](/screenshots/3-code.png)
-- ![Test Passed](/screenshots/3-passed.png)
+<br>
+
+**Test Passed**  
+<img src="/screenshots/1-passed.png" width="400"/>
 
 ---
 
-## Test 4: should return sum of n numbers
-- ![Refactor Code](/screenshots/4-code.png)
-- ![Test Passed](/screenshots/4-passed.png)
+### Test 2: should return number when only one number is provided
+
+**Test Failed**  
+<img src="/screenshots/2-failed.png" width="400"/>
+
+<br>
+
+**Code to Pass**  
+<img src="/screenshots/2-code.png" width="400"/>
+
+<br>
+
+**Test Passed**  
+<img src="/screenshots/2-passed.png" width="400"/>
 
 ---
 
-## Test 5: should handle newlines between numbers
-- ![Test Failed](/screenshots/5-failed.png)
-- ![Refactor Code](/screenshots/5-code.png)
-- ![Test Passed](/screenshots/5-passed.png)
+### Test 3: should return sum of numbers when only two numbers are provided
+
+**Test Failed**  
+<img src="/screenshots/3-failed.png" width="400"/>
+
+<br>
+
+**Code to Pass**  
+<img src="/screenshots/3-code.png" width="400"/>
+
+<br>
+
+**Test Passed**  
+<img src="/screenshots/3-passed.png" width="400"/>
 
 ---
 
-## Test 6: should handle custom delimiter starting with //
-- ![Test Failed](/screenshots/6-failed.png)
-- ![Refactor Code](/screenshots/6-code.png)
-- ![Test Passed](/screenshots/6-passed.png)
+### Test 4: should return sum of n numbers
+
+**Test Failed**  
+<img src="/screenshots/4-failed.png" width="400"/>
+
+<br>
+
+**Code to Pass**  
+<img src="/screenshots/4-code.png" width="400"/>
+
+<br>
+
+**Test Passed**  
+<img src="/screenshots/4-passed.png" width="400"/>
 
 ---
 
-## Test 7: should throw an exception when negative numbers are present
-- ![Test Failed](/screenshots/7-failed.png)
-- ![Refactor Code](/screenshots/7-code.png)
-- ![Test Passed](/screenshots/7-passed.png)
+### Test 5: should handle newlines between numbers
+
+**Test Failed**  
+<img src="/screenshots/5-failed.png" width="400"/>
+
+<br>
+
+**Code to Pass**  
+<img src="/screenshots/5-code.png" width="400"/>
+
+<br>
+
+**Test Passed**  
+<img src="/screenshots/5-passed.png" width="400"/>
 
 ---
 
-## Test 8: should ignore numbers greater than 1000
-- ![Test Failed](/screenshots/8-failed.png)
-- ![Refactor Code](/screenshots/8-code.png)
-- ![Test Passed](/screenshots/8-passed.png)
+### Test 6: should handle custom delimiter starting with //
+
+**Test Failed**  
+<img src="/screenshots/6-failed.png" width="400"/>
+
+<br>
+
+**Code to Pass**  
+<img src="/screenshots/6-code.png" width="400"/>
+
+<br>
+
+**Test Passed**  
+<img src="/screenshots/6-passed.png" width="400"/>
+
+---
+
+### Test 7: should throw an exception when negative numbers are present
+
+**Test Failed**  
+<img src="/screenshots/7-failed.png" width="400"/>
+
+<br>
+
+**Code to Pass**  
+<img src="/screenshots/7-code.png" width="400"/>
+
+<br>
+
+**Test Passed**  
+<img src="/screenshots/7-passed.png" width="400"/>
+
+---
+
+### Test 8: should ignore numbers greater than 1000
+
+**Test Failed**  
+<img src="/screenshots/8-failed.png" width="400"/>
+
+<br>
+
+**Code to Pass**  
+<img src="/screenshots/8-code.png" width="400"/>
+
+<br>
+
+**Test Passed**  
+<img src="/screenshots/8-passed.png" width="400"/>
+
+---
+
+### Test 9: should handle delimiter of any length
+
+**Test Failed**  
+<img src="/screenshots/9-failed.png" width="400"/>
+
+<br>
+
+**Code to Pass**  
+<img src="/screenshots/9-code.png" width="400"/>
+
+<br>
+
+**Test Passed**  
+<img src="/screenshots/9-passed.png" width="400"/>
